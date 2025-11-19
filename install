@@ -1,0 +1,10 @@
+
+---
+
+## 🔧 Instalación
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/josefinaAdamo/chatbot_gemini_practico.git
+cd chatbot_gemini_practico
+
