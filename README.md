@@ -1,25 +1,45 @@
-Chatbot de Consola Impulsado por Google Gemini
-Este proyecto presenta un chatbot de consola (CLI) robusto y flexible, desarrollado en Python y potenciado por el modelo Gemini de Google.
+# ChatBot Gemini
 
-Su diseño se centra en la adaptabilidad, permitiendo que el asistente conversacional cambie de personalidad (Roles) bajo demanda.
+Este proyecto es un bot desarrollado en Python que utiliza la API de Gemini para procesar y responder mensajes de manera inteligente.
 
-✨ Características Principales
-Flexibilidad de Roles: Permite configurar y alternar fácilmente entre diferentes personalidades para el chatbot, adaptando su estilo y conocimiento a la tarea.
-Diseño Modular: La arquitectura está pensada para la facilidad de mantenimiento. Componentes clave como la memoria de conversación, la configuración de la API, y la gestión de Roles están separados.
-🛠️ Instalación y Configuración
-Sigue estos pasos para poner en marcha el chatbot:
+## Características
 
-1. Clave API de Gemini
-Para autenticarte con el servicio de Google, necesitas tu clave de API:
+- Integración con la API de Gemini.
+- Procesamiento de lenguaje natural.
+- Fácil de configurar y extender.
+- Respuestas automáticas basadas en IA.
 
-Crea un archivo llamado .env en la carpeta raíz del proyecto.
+## Requisitos
 
-Dentro de este archivo, pega tu clave de API en el siguiente formato:
+- Python 3.8 o superior
+- `requests`
+- Clave de API de Gemini
 
-GEMINI_API_KEY="TU_CLAVE_AQUI"
-(Reemplaza "TU_CLAVE_AQUI" con tu clave real).
+## Instalación
 
-2. Instalación de Dependencias
-Abre la terminal en la carpeta principal del proyecto e instala todas las dependencias requeridas usando pip:
-
+```bash
+git clone https://github.com/tuusuario/ChatBotGemini.git
+cd ChatBotGemini
 pip install -r requirements.txt
+```
+
+## Uso
+
+1. Configura tu clave de API en el archivo de configuración.
+2. Ejecuta el bot:
+
+```bash
+python main.py
+```
+
+## Configuración
+
+Edita el archivo `config.py` para agregar tu clave de API y otros parámetros necesarios.
+
+## Contribución
+
+Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
